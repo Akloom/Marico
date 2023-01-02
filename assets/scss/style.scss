@@ -22,6 +22,8 @@
 
 .wrapper{
   font-family: "Poppins", sans-serif;
+  background: $color-black-900;
 }
 
 @import './layout/header';
+@import './include/banner';
