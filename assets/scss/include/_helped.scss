@@ -1,0 +1,54 @@
+.helped {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  background: url('../img/image/helped-image.png') no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+
+  h1 {
+    margin-top: 240px;
+    max-width: 1000px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 105px;
+    color: $color-white-50;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .helped{
+    margin-top: 100px;
+
+    h1{
+      font-size: 45px;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .helped{
+    margin-top: 50px;
+    min-height: 60vh;
+
+    h1{
+      margin-top: 100px;
+      font-size: 35px;
+      line-height: 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .helped{
+    min-height: 40vh;
+
+    h1{
+      margin-top: 60px;
+      font-size: 25px;
+      line-height: 50px;
+    }
+  }
+}
