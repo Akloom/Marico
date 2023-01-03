@@ -951,7 +951,7 @@
 }
 .step-send-title h1 {
   font-weight: 600;
-  font-size: 65px;
+  font-size: 60px;
   line-height: 112px;
   color: #FFFFFF;
 }
@@ -1103,7 +1103,7 @@
     gap: 100px;
   }
   .step-send-title h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
   .step-send-content {
     gap: 50px;
@@ -1124,7 +1124,7 @@
     gap: 50px;
   }
   .step-send-title h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .step-send-content__info h1 {
     margin-top: 40px;
@@ -1142,8 +1142,8 @@
     font-size: 20px;
   }
   .step-send-title h1 {
-    font-size: 24px;
-    line-height: 80px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .step-send-title p {
     font-size: 18px;
