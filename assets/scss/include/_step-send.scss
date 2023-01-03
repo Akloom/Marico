@@ -1,4 +1,4 @@
-.step-connect {
+.step-send {
   margin-top: 150px;
   padding: 0 20px;
   display: flex;
@@ -60,10 +60,9 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
 
     &__info {
-      max-width: 500px;
+      max-width: 600px;
       display: flex;
       flex-direction: column;
 
@@ -75,15 +74,15 @@
       }
 
       h1 {
-        max-width: 547px;
+        max-width: 600px;
         margin-top: 80px;
         font-weight: 600;
-        font-size: 65px;
+        font-size: 60px;
         color: $color-white-50;
 
         span {
           font-weight: 600;
-          font-size: 65px;
+          font-size: 60px;
           color: $color-aqua-70;
         }
       }
@@ -180,7 +179,7 @@
   }
 }
 
-.step-connect-content__info-desc__item:nth-child(1) {
+.step-send-content__info-desc__item:nth-child(1) {
   span {
     padding: 5px 14px 1px 14px;
     border-radius: 50%;
@@ -188,7 +187,7 @@
   }
 }
 
-.step-connect-content__info-desc__item:nth-child(2) {
+.step-send-content__info-desc__item:nth-child(2) {
   span {
     padding: 5px 13px 1px 12px;
     border-radius: 50%;
@@ -197,7 +196,7 @@
 }
 
 @media screen and (max-width: 920px) {
-  .step-connect{
+  .step-send{
     margin-top: 75px;
     gap: 100px;
 
@@ -212,11 +211,11 @@
     }
   }
 
-  .step-connect-content__info-buttons{
+  .step-send-content__info-buttons{
     justify-content: center;
   }
 
-  .step-connect-content__image{
+  .step-send-content__image{
     position: static;
 
     &::before{
@@ -226,7 +225,7 @@
 }
 
 @media screen and (max-width: 670px) {
-  .step-connect{
+  .step-send{
     margin-top: 75px;
     gap: 50px;
 
@@ -253,7 +252,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .step-connect{
+  .step-send{
     margin-top: 75px;
 
     &-title{
@@ -296,7 +295,7 @@
     }
   }
 
-  .step-connect-content__info-desc__item{
+  .step-send-content__info-desc__item{
     p{
       font-size: 14px;
     }
