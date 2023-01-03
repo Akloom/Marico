@@ -1167,5 +1167,45 @@
     font-size: 14px;
   }
 }
+.agree {
+  max-width: 1360px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.agree h1 {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 112px;
+  color: #FFFFFF;
+}
+.agree img {
+  width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+  .agree h1 {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .agree {
+    margin-top: 50px;
+  }
+  .agree h1 {
+    font-size: 45px;
+    line-height: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .agree h1 {
+    font-size: 30px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
