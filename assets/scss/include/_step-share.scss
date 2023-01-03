@@ -1,0 +1,237 @@
+.step-share {
+  margin-top: 150px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &-title {
+    max-width: 930px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    span {
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 38px;
+      color: $color-aqua-70;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 65px;
+      line-height: 112px;
+      color: $color-white-50;
+    }
+
+    p {
+      width: 100%;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 45px;
+      color: $color-white-600;
+    }
+  }
+
+  &-content {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+
+    &__row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      &-card {
+        width: 620px;
+        height: 575px;
+        padding: 10px 0 0 25px;
+        box-sizing: border-box;
+        background: $color-black-850;
+        overflow: hidden;
+
+        &__content {
+          display: flex;
+          flex-direction: column;
+
+          span {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 45px;
+            color: $color-green-200;
+          }
+
+          h1 {
+            margin-top: 24px;
+            font-weight: 600;
+            font-size: 70px;
+            line-height: 120px;
+            color: $color-white-450;
+
+            span {
+              font-weight: 600;
+              font-size: 70px;
+              line-height: 120px;
+              color: $color-white-50;
+            }
+          }
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    a {
+      padding: 22px 87px;
+      border: 1px solid $color-aqua-60;
+      border-radius: 12px;
+      background: $color-aqua-60;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: $color-white-50;
+      transition: .6s all;
+
+      &:hover{
+        background: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .step-share {
+    margin-top: 75px;
+
+    &-title {
+      h1 {
+        font-size: 55px;
+      }
+    }
+
+    &-content {
+      margin-top: 75px;
+
+      &__row {
+        &-card {
+          height: 495px;
+
+          &__content {
+            h1 {
+              font-size: 60px;
+              line-height: 80px;
+
+              span {
+                font-size: 60px;
+                line-height: 80px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .step-share {
+    margin-top: 50px;
+
+    &-title {
+      h1 {
+        font-size: 35px;
+      }
+    }
+
+    &-content {
+      margin-top: 55px;
+
+      &__row {
+        &-card {
+          width: 430px;
+          height: 365px;
+
+          &__content {
+            h1 {
+              font-size: 40px;
+              line-height: 60px;
+
+              span {
+                font-size: 40px;
+                line-height: 80px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .step-share {
+    margin-top: 50px;
+
+    &-title {
+
+      span {
+        font-size: 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+        line-height: 80px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 35px;
+      }
+    }
+
+    &-content {
+      margin-top: 50px;
+      gap: 25px;
+
+      &__row {
+        &-card {
+          width: 290px;
+          height: 265px;
+
+          &__content {
+
+            span {
+              font-size: 20px;
+            }
+
+            h1 {
+              font-size: 30px;
+              line-height: 45px;
+
+              span {
+                font-size: 30px;
+                line-height: 45px;
+              }
+            }
+          }
+        }
+      }
+
+      a{
+        padding: 16px 40px;
+        font-size: 18px;
+      }
+    }
+  }
+}
