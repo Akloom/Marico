@@ -1255,5 +1255,125 @@
     line-height: 50px;
   }
 }
+.get-started {
+  margin-top: 150px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.get-started h1 {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+.get-started p {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+.get-started a {
+  position: relative;
+  overflow: hidden;
+  margin-top: 15px;
+  padding: 30px 100px;
+  border: 1px solid #326CF9;
+  border-radius: 12px;
+  background: #326CF9;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFFFFF;
+  transition: 0.6s all;
+}
+.get-started a::before {
+  position: absolute;
+  content: "";
+  background: #FFFFFF;
+  width: 8px;
+  top: 0;
+  bottom: 0;
+  left: -32px;
+  transform: rotate(-16deg);
+  filter: blur(6px);
+}
+.get-started a:hover::before {
+  left: calc(100% + 32px);
+  transition: 0.6s all;
+}
+.get-started-creators {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+.get-started-creators span {
+  font-weight: 400;
+  line-height: 38px;
+  color: #707070;
+}
+
+@media screen and (max-width: 920px) {
+  .get-started {
+    margin-top: 100px;
+  }
+  .get-started h1 {
+    font-size: 60px;
+  }
+  .get-started p {
+    font-size: 30px;
+  }
+  .get-started a {
+    padding: 20px 80px;
+  }
+  .get-started-creators P {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .get-started {
+    margin-top: 50px;
+  }
+  .get-started-logo {
+    width: 100px;
+  }
+  .get-started h1 {
+    font-size: 40px;
+  }
+  .get-started p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .get-started a {
+    padding: 20px 60px;
+    font-size: 25px;
+  }
+  .get-started-creators p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .get-started h1 {
+    font-size: 30px;
+  }
+  .get-started p {
+    font-size: 20px;
+  }
+  .get-started a {
+    padding: 16px 40px;
+    font-size: 20px;
+  }
+  .get-started-creators P {
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
