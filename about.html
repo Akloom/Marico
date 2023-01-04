@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Marico</title>
   <link rel="website icon" type="svg" href="./assets/img/icons/logo-icon.svg">
@@ -41,12 +42,12 @@
               </div>
             </div>
             <a href="./about.html" class="header-nav__link">About</a>
-            <a href="" class="header-nav__link">Pricing</a>
-            <a href="" class="header-nav__link">Blog</a>
+            <a href="./pricing.html" class="header-nav__link">Pricing</a>
+            <a href="./blog.html" class="header-nav__link">Blog</a>
           </nav>
           <div class="header-buttons">
-            <a href="" class="header-buttons__btn">Login</a>
-            <a href="" class="header-buttons__btn">Sign Up</a>
+            <a href="./log-in.html" class="header-buttons__btn">Login</a>
+            <a href="./sign-up.html" class="header-buttons__btn">Sign Up</a>
           </div>
         </div>
       </div>
@@ -54,7 +55,7 @@
 
     <section class="mission container">
       <div class="mission-logo">
-        <img src="./assets/img/icons/logo-icon.svg" alt="">
+        <img src="./assets/img/icons/logo-icon.svg" alt="logo">
         <span>Marico</span>
       </div>
       <span>OUR MISSION</span>
@@ -96,8 +97,87 @@
         <span class="mission-content__line"></span>
       </div>
     </section>
+
+    <section class="team container">
+      <span>OUR TEAM</span>
+      <h1>We love creators</h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./assets/img/image/avatar-image-1.png" alt="avatar">
+              <h1>Jacob Mark</h1>
+              <span>CEO & Design</span>
+              <a href="#">
+                <span>Twitter</span>
+                <svg class="team-item__icon">
+                  <use href="./assets/img/icons/svg-sprites.svg#arrow-link"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./assets/img/image/avatar-image-2.png" alt="avatar">
+              <h1>Daniel</h1>
+              <span>CTO & Development</span>
+              <a href="#">
+                <span>Twitter</span>
+                <svg class="team-item__icon">
+                  <use href="./assets/img/icons/svg-sprites.svg#arrow-link"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-item">
+              <img src="./assets/img/image/avatar-image-3.png" alt="avatar">
+              <h1>Ryan Trump</h1>
+              <span>COO & Sales</span>
+              <a href="#">
+                <span>Twitter</span>
+                <svg class="team-item__icon">
+                  <use href="./assets/img/icons/svg-sprites.svg#arrow-link"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="get-started">
+      <img src="./assets/img/icons/get-started-logo-icon.svg" alt="logo" class="get-started-logo">
+      <h1>Get Started Now</h1>
+      <p>Setup is easy and takes under 5 minutes.</p>
+      <a href="#">Get Started Now</a>
+      <div class="get-started-creators">
+        <img src="./assets/img/icons/marker-icon.svg" alt="marker">
+        <p>1000+
+          <span>creators have already started</span>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <div class="footer-logo__tagline">
+        <a href="./index.html" class="footer-logo">
+          <img src="./assets/img/icons/footer-logo.svg" alt="logo">
+          <span>Marico</span>
+        </a>
+        <p>info@marico.com</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="./about.html">About</a>
+        <a href="./pricing.html">Pricing</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./sign-up.html">Sign Up</a>
+      </nav>
+    </footer>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>
 
