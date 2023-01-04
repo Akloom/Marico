@@ -445,7 +445,6 @@
   text-align: center;
   flex-direction: column;
   gap: 60px;
-  color: #FFFFFF;
 }
 .benefits h1 {
   font-weight: 600;
@@ -1373,6 +1372,178 @@
   }
   .get-started-creators P {
     font-size: 12px;
+  }
+}
+.mission {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.mission span {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  color: #306EF7;
+}
+.mission-logo {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.mission-logo img {
+  width: 75px;
+}
+.mission-logo span {
+  margin-top: 0;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 93px;
+  color: #FFFFFF;
+}
+.mission h1 {
+  max-width: 938px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 112px;
+  color: #FFFFFF;
+}
+.mission p {
+  max-width: 994px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+.mission-content {
+  margin-top: 150px;
+  max-width: 1154px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.mission-content p {
+  text-align: start;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+.mission-content span {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+.mission-content__line {
+  margin-top: 45px;
+  width: 100%;
+  height: 1px;
+  background: #828282;
+}
+
+@media screen and (max-width: 920px) {
+  .mission span {
+    margin-top: 30px;
+  }
+  .mission-logo img {
+    width: 65px;
+  }
+  .mission-logo span {
+    margin-top: 0;
+    font-size: 52px;
+  }
+  .mission h1 {
+    font-size: 55px;
+    line-height: 80px;
+  }
+  .mission p {
+    font-size: 26px;
+  }
+  .mission-content {
+    margin-top: 120px;
+  }
+  .mission-content p {
+    font-size: 24px;
+  }
+  .mission-content span {
+    font-size: 26px;
+  }
+  .mission-content__line {
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .mission span {
+    margin-top: 20px;
+  }
+  .mission-logo img {
+    width: 55px;
+  }
+  .mission-logo span {
+    margin-top: 0;
+    font-size: 42px;
+  }
+  .mission h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .mission p {
+    font-size: 22px;
+  }
+  .mission-content {
+    margin-top: 80px;
+    gap: 35px;
+  }
+  .mission-content p {
+    font-size: 20px;
+  }
+  .mission-content span {
+    font-size: 20px;
+  }
+  .mission-content__line {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mission span {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .mission-logo img {
+    width: 45px;
+  }
+  .mission-logo span {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  .mission h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .mission p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .mission-content {
+    margin-top: 40px;
+    gap: 25px;
+  }
+  .mission-content p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .mission-content span {
+    font-size: 16px;
+  }
+  .mission-content__line {
+    margin-top: 15px;
   }
 }
 .footer {
