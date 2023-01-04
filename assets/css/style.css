@@ -1546,14 +1546,11 @@
   }
 }
 .swiper {
-  margin-top: 60px;
   width: 100%;
   height: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1600,7 +1597,6 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  color: white;
 }
 .team span {
   font-weight: 600;
@@ -1615,6 +1611,7 @@
   color: #FFFFFF;
 }
 .team-item {
+  margin-top: 60px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1663,14 +1660,14 @@
   }
 }
 @media screen and (max-width: 680px) {
-  .swiper {
-    margin-top: 40px;
-  }
   .team {
     margin-top: 75px;
   }
   .team h1 {
     font-size: 45px;
+  }
+  .team-item {
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1684,7 +1681,171 @@
     font-size: 35px;
     line-height: 80px;
   }
+  .team-item {
+    margin-top: 20px;
+  }
 }
+.card-height {
+  height: 850px;
+}
+
+.card-parameters {
+  margin-right: 35px !important;
+  background: #131313;
+  border: 1px solid #707070;
+  border-radius: 24px;
+  transition: 0.6s all;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.plan span {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 112px;
+  color: #FFFFFF;
+}
+.plan-card {
+  padding: 35px 50px 35px 35px;
+  display: flex;
+  flex-direction: column;
+}
+.plan-card h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+.plan-card span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  color: #B4B1B1;
+  transition: 0.6s all;
+}
+.plan-card__price {
+  display: flex;
+  flex-direction: column;
+}
+.plan-card__price h1 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+.plan-card__price span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  color: #B4B1B1;
+  transition: 0.6s all;
+}
+.plan-card__price p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  color: #B4B1B1;
+  transition: 0.6s all;
+}
+.plan-card__subscribes {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.plan-card__subscribes h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.plan-card__subscribes span {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+.plan-card__subscribes p {
+  margin-top: 45px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 36px;
+  color: #B4B1B1;
+  transition: 0.6s all;
+}
+.plan-card__features {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.plan-card__features h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+.plan-card__features p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.plan-card__features-icon {
+  width: 24px;
+  height: 17px;
+  fill: #FFFFFF;
+}
+.plan-card a {
+  margin-top: 50px;
+  padding: 25px 0;
+  border: 3.5px solid #4681E7;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  color: #FFFFFF;
+  transition: 0.6s all;
+}
+.plan-card a:hover {
+  color: #4681E7;
+  background: #FFFFFF;
+  border: 3.5px solid #FFFFFF;
+}
+
+.card-parameters:hover {
+  background: #4681E7;
+}
+
+.card-parameters:hover span {
+  color: #FFFFFF;
+}
+
+.card-parameters:hover .plan-card__price span {
+  color: #FFFFFF;
+}
+
+.card-parameters:hover .plan-card__price p {
+  color: #FFFFFF;
+}
+
+.card-parameters:hover .plan-card__subscribes p {
+  color: #FFFFFF;
+}
+
+.card-parameters:hover .plan-card a {
+  border: 3.5px solid #FFFFFF;
+}
+
 .footer {
   margin-top: 100px;
   padding: 50px 20px;

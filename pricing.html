@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Pricing</title>
+  <link rel="website icon" type="svg" href="./assets/img/icons/logo-icon.svg">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="header-content container">
+        <a href="./index.html" class="header-logo">
+          <img src="./assets/img/icons/logo-icon.svg" alt="logo">
+          <span>Marico</span>
+        </a>
+        <div class="hamburger-menu">
+          <span></span>
+        </div>
+        <div class="header-nav__collapse">
+          <nav class="header-nav">
+            <div class="header-nav__dropdown">
+              <button onclick="myFunction()" class="header-nav__link dropbtn">
+                <span>Use Cases</span>
+                <svg class="header-nav__link-icon">
+                  <use href="./assets/img/icons/svg-sprites.svg#arrow-down"></use>
+                </svg>
+              </button>
+              <div id="myDropdown" class="header-nav__dropdown-content">
+                <div class="header-nav__dropdown-content__links">
+                  <a href="#">Item 1</a>
+                  <a href="#">Item 2</a>
+                  <a href="#">Item 3</a>
+                </div>
+              </div>
+            </div>
+            <a href="./about.html" class="header-nav__link">About</a>
+            <a href="./pricing.html" class="header-nav__link">Pricing</a>
+            <a href="./blog.html" class="header-nav__link">Blog</a>
+          </nav>
+          <div class="header-buttons">
+            <a href="./log-in.html" class="header-buttons__btn">Login</a>
+            <a href="./sign-up.html" class="header-buttons__btn">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="plan container">
+      <span>Choose the plan that's right for you.</span>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper card-height">
+          <div class="swiper-slide card-parameters">
+            <div class="plan-card">
+              <h2>Starter</h2>
+              <span>Perfect for tying out Wavium</span>
+              <div class="plan-card__price">
+                <h1>Free</h1>
+                <p>or $5/mo, billed monthly</p>
+              </div>
+              <div class="plan-card__subscribes">
+                <h3>Collect Unlimited subscribers</h3>
+                <span>500 monthly emails</span>
+                <p>Upgrade to send more emails</p>
+              </div>
+              <div class="plan-card__features">
+                <h3>Key features</h3>
+                <p>
+                  <svg class="plan-card__features-icon">
+                    <use href="./assets/img/icons/svg-sprites.svg#check"></use>
+                  </svg>
+                  Automatic updating home page
+                </p>
+                <p>
+                  <svg class="plan-card__features-icon">
+                    <use href="./assets/img/icons/svg-sprites.svg#check"></use>
+                  </svg>
+                  Unlimited sources + posts
+                </p>
+              </div>
+              <a href="#">Start for Free</a>
+            </div>
+          </div>
+          <div class="swiper-slide card-parameters">
+            <div class="plan-card">
+              <h2>Basic</h2>
+              <span>Build your online home</span>
+              <div class="plan-card__price">
+                <h1>$14
+                  <span>Per month</span>
+                </h1>
+                <p>or $19/mo, billed monthly</p>
+              </div>
+              <div class="plan-card__subscribes">
+                <h3>Collect Unlimited subscribers</h3>
+                <span>2,000 free monthl emails</span>
+                <p>Purchase more for $0.002 per email</p>
+              </div>
+              <div class="plan-card__features">
+                <h3>Everything in starter, plus</h3>
+                <p>
+                  <svg class="plan-card__features-icon">
+                    <use href="./assets/img/icons/svg-sprites.svg#check"></use>
+                  </svg>
+                  Remove Wavium branding
+                </p>
+                <p>
+                  <svg class="plan-card__features-icon">
+                    <use href="./assets/img/icons/svg-sprites.svg#check"></use>
+                  </svg>
+                  Embed Wavium on your own
+                </p>
+              </div>
+              <a href="#">Start 14-day Trial</a>
+            </div>
+          </div>
+          <div class="swiper-slide card-parameters">
+            <div class="plan-card">
+              <h2>Complete</h2>
+              <span>Enhanced engagement</span>
+              <div class="plan-card__price">
+                <h1>$29
+                  <span>Per month</span>
+                </h1>
+                <p>or $34/mo, billed monthly</p>
+              </div>
+              <div class="plan-card__subscribes">
+                <h3>Collect Unlimited subscribers</h3>
+                <span>10,000 free monthly emails</span>
+                <p>Purchase more for $0.002 per email</p>
+              </div>
+              <div class="plan-card__features">
+                <h3>Everything in basic, plus </h3>
+                <p>
+                  <svg class="plan-card__features-icon">
+                    <use href="./assets/img/icons/svg-sprites.svg#check"></use>
+                  </svg>
+                  Collect text massage subscribers
+                </p>
+                <p>
+                  <svg class="plan-card__features-icon">
+                    <use href="./assets/img/icons/svg-sprites.svg#check"></use>
+                  </svg>
+                  Share posts over text massage
+                </p>
+              </div>
+              <a href="#">Start 14-day Trial</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="get-started">
+      <img src="./assets/img/icons/get-started-logo-icon.svg" alt="logo" class="get-started-logo">
+      <h1>Get Started Now</h1>
+      <p>Setup is easy and takes under 5 minutes.</p>
+      <a href="#">Get Started Now</a>
+      <div class="get-started-creators">
+        <img src="./assets/img/icons/marker-icon.svg" alt="marker">
+        <p>1000+
+          <span>creators have already started</span>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <div class="footer-logo__tagline">
+        <a href="./index.html" class="footer-logo">
+          <img src="./assets/img/icons/footer-logo.svg" alt="logo">
+          <span>Marico</span>
+        </a>
+        <p>info@marico.com</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="./about.html">About</a>
+        <a href="./pricing.html">Pricing</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./sign-up.html">Sign Up</a>
+      </nav>
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+.card-height {
+  height: 850px;
+}
+
+.card-parameters {
+  margin-right: 35px !important;
+  background: $color-black-820;
+  border: 1px solid $color-white-600;
+  border-radius: 24px;
+  transition: .6s all;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+
+  span {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 112px;
+    color: $color-white-50;
+  }
+
+  &-card {
+    padding: 35px 50px 35px 35px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 75px;
+      color: $color-white-50;
+    }
+
+    span {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 42px;
+      color: $color-white-300;
+      transition: .6s all;
+    }
+
+    &__price {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 80px;
+        color: $color-white-50
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 39px;
+        color: $color-white-300;
+        transition: .6s all;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 42px;
+        color: $color-white-300;
+        transition: .6s all;
+      }
+    }
+
+    &__subscribes {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        color: $color-white-50;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 42px;
+        color: $color-white-50;
+      }
+
+      p {
+        margin-top: 45px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 36px;
+        color: $color-white-300;
+        transition: .6s all;
+      }
+    }
+
+    &__features {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 42px;
+        color: $color-white-50;
+      }
+
+      p {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: $color-white-50;
+      }
+
+      &-icon {
+        width: 24px;
+        height: 17px;
+        fill: $color-white-50;
+      }
+    }
+
+    a {
+      margin-top: 50px;
+      padding: 25px 0;
+      border: 3.5px solid $color-aqua-80;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 27px;
+      line-height: 40px;
+      color: $color-white-50;
+      transition: .6s all;
+
+      &:hover {
+        color: $color-aqua-80;
+        background: $color-white-50;
+        border: 3.5px solid $color-white-50;
+      }
+    }
+  }
+}
+
+.card-parameters:hover {
+  background: $color-aqua-80;
+}
+
+.card-parameters:hover span {
+  color: $color-white-50;
+}
+
+.card-parameters:hover .plan-card__price span {
+  color: $color-white-50;
+}
+
+.card-parameters:hover .plan-card__price p {
+  color: $color-white-50;
+}
+
+.card-parameters:hover .plan-card__subscribes p {
+  color: $color-white-50;
+}
+
+.card-parameters:hover .plan-card a {
+  border: 3.5px solid $color-white-50;
+}

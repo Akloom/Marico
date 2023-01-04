@@ -1,12 +1,9 @@
 .swiper {
-  margin-top: 60px;
   width: 100%;
   height: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -42,7 +39,7 @@
 }
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   background: $color-white-50;
 }
 
@@ -54,7 +51,6 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  color: white;
 
   span {
     font-weight: 600;
@@ -71,6 +67,7 @@
   }
 
   &-item {
+    margin-top: 60px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -118,40 +115,44 @@
 }
 
 @media screen and (max-width: 920px) {
-  .team{
+  .team {
     margin-top: 100px;
 
-    h1{
+    h1 {
       font-size: 55px;
     }
   }
 }
 
 @media screen and (max-width: 680px) {
-  .swiper{
-    margin-top: 40px;
-  }
-
-  .team{
+  .team {
     margin-top: 75px;
-    
-    h1{
+
+    h1 {
       font-size: 45px;
+    }
+
+    &-item {
+      margin-top: 40px;
     }
   }
 }
 
 @media screen and (max-width: 480px) {
-  .swiper{
+  .swiper {
     margin-top: 20px;
   }
 
-  .team{
+  .team {
     margin-top: 50px;
 
-    h1{
+    h1 {
       font-size: 35px;
       line-height: 80px;
+    }
+
+    &-item {
+      margin-top: 20px;
     }
   }
 }
