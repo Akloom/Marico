@@ -1658,6 +1658,9 @@
   .team h1 {
     font-size: 55px;
   }
+  .team-item h1 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 680px) {
   .team {
@@ -1668,6 +1671,9 @@
   }
   .team-item {
     margin-top: 40px;
+  }
+  .team-item h1 {
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 480px) {
