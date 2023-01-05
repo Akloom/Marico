@@ -1696,7 +1696,7 @@
 }
 
 .card-parameters {
-  margin-right: 35px !important;
+  margin-right: 25px !important;
   background: #131313;
   border: 1px solid #707070;
   border-radius: 24px;
@@ -1704,6 +1704,7 @@
 }
 
 .plan {
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1711,6 +1712,7 @@
   gap: 100px;
 }
 .plan span {
+  text-align: center;
   font-weight: 600;
   font-size: 65px;
   line-height: 112px;
@@ -1728,6 +1730,7 @@
   color: #FFFFFF;
 }
 .plan-card span {
+  text-align: start;
   font-weight: 400;
   font-size: 22px;
   line-height: 42px;
@@ -1852,6 +1855,265 @@
   border: 3.5px solid #FFFFFF;
 }
 
+@media screen and (max-width: 920px) {
+  .card-height {
+    height: 750px;
+  }
+  .card-parameters {
+    margin-right: 15px !important;
+  }
+  .plan {
+    gap: 75px;
+  }
+  .plan span {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 80px;
+    color: #FFFFFF;
+  }
+  .plan-card {
+    padding: 20px 35px 20px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-card h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 75px;
+    color: #FFFFFF;
+  }
+  .plan-card span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 42px;
+    color: #B4B1B1;
+    transition: 0.6s all;
+  }
+  .plan-card__price {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-card__price h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 80px;
+    color: #FFFFFF;
+  }
+  .plan-card__price span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    color: #B4B1B1;
+    transition: 0.6s all;
+  }
+  .plan-card__price p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    color: #B4B1B1;
+    transition: 0.6s all;
+  }
+  .plan-card__subscribes {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-card__subscribes h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+  .plan-card__subscribes span {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .plan-card__subscribes p {
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: #B4B1B1;
+    transition: 0.6s all;
+  }
+  .plan-card__features {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .plan-card__features h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .plan-card__features p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .plan-card__features-icon {
+    width: 20px;
+    height: 13px;
+    fill: #FFFFFF;
+  }
+  .plan-card a {
+    margin-top: 30px;
+    padding: 20px 0;
+    border: 2.5px solid #4681E7;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF;
+    transition: 0.6s all;
+  }
+  .plan-card a:hover {
+    color: #4681E7;
+    background: #FFFFFF;
+    border: 2.5px solid #FFFFFF;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card-height {
+    height: 520px;
+  }
+  .card-parameters {
+    margin-right: 8px !important;
+  }
+  .plan {
+    gap: 25px;
+  }
+  .plan span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+  .plan-card {
+    padding: 20px 35px 20px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-card h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+  }
+  .plan-card span {
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 42px;
+    color: #B4B1B1;
+    transition: 0.6s all;
+  }
+  .plan-card__price {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-card__price h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+  .plan-card__price span {
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B4B1B1;
+    transition: 0.6s all;
+  }
+  .plan-card__price p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B4B1B1;
+    transition: 0.6s all;
+  }
+  .plan-card__subscribes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-card__subscribes h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .plan-card__subscribes span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .plan-card__subscribes p {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #B4B1B1;
+    transition: 0.6s all;
+  }
+  .plan-card__features {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .plan-card__features h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .plan-card__features p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .plan-card__features-icon {
+    width: 18px;
+    height: 11px;
+    fill: #FFFFFF;
+  }
+  .plan-card a {
+    margin-top: 30px;
+    padding: 10px 0;
+    border: 1.5px solid #4681E7;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    transition: 0.6s all;
+  }
+  .plan-card a:hover {
+    color: #4681E7;
+    background: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+  }
+}
 .footer {
   margin-top: 100px;
   padding: 50px 20px;
@@ -1903,6 +2165,7 @@
 
 @media screen and (max-width: 920px) {
   .footer {
+    margin-top: 50px;
     flex-direction: column;
   }
   .footer-nav {
