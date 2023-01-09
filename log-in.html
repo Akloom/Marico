@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Marico</title>
+  <link rel="website icon" type="svg" href="./assets/img/icons/logo-icon.svg">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="header-content container">
+        <a href="./index.html" class="header-logo">
+          <img src="./assets/img/icons/logo-icon.svg" alt="logo">
+          <span>Marico</span>
+        </a>
+        <div class="hamburger-menu">
+          <span></span>
+        </div>
+        <div class="header-nav__collapse">
+          <nav class="header-nav">
+            <div class="header-nav__dropdown">
+              <button onclick="myFunction()" class="header-nav__link dropbtn">
+                <span>Use Cases</span>
+                <svg class="header-nav__link-icon">
+                  <use href="./assets/img/icons/svg-sprites.svg#arrow-down"></use>
+                </svg>
+              </button>
+              <div id="myDropdown" class="header-nav__dropdown-content">
+                <div class="header-nav__dropdown-content__links">
+                  <a href="#">Item 1</a>
+                  <a href="#">Item 2</a>
+                  <a href="#">Item 3</a>
+                </div>
+              </div>
+            </div>
+            <a href="./about.html" class="header-nav__link">About</a>
+            <a href="./pricing.html" class="header-nav__link">Pricing</a>
+            <a href="./blog.html" class="header-nav__link">Blog</a>
+          </nav>
+          <div class="header-buttons">
+            <a href="./log-in.html" class="header-buttons__btn">Login</a>
+            <a href="./sign-up.html" class="header-buttons__btn">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="input container">
+      <h1>Log in</h1>
+      <p>Login into existing account.</p>
+      <form class="input-data">
+        <div class="input-data__user">
+          <input type="text" placeholder="Username">
+          <button>
+            <svg class="input-data__user-icon">
+              <use href="./assets/img/icons/svg-sprites.svg#user"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="input-data__user">
+          <input type="password" placeholder="Password" minlength="8">
+          <button>
+            <svg class="input-data__user-icon">
+              <use href="./assets/img/icons/svg-sprites.svg#eye"></use>
+            </svg>
+          </button>
+        </div>
+        <a href="#">Log in</a>
+      </form>
+    </section>
+    
+    <section class="alternative">
+      <h2></h2>
+      <p></p>
+      <div class="alternative-links">
+        <a href="#">
+          <svg class="alternative-links__icon">
+            <use href="./assets/img/icons/svg-sprites.svg#apple"></use>
+          </svg>
+          <span>Log in with Apple</span>
+        </a>
+        <a href="#">
+          <svg class="alternative-links__icon">
+            <use href="./assets/img/icons/svg-sprites.svg#facebook"></use>
+          </svg>
+          <span>Log in with Facebook</span>
+        </a>
+        <a href="#">
+          <img src="./assets/img/icons/google-icon.svg" alt="">
+          <span>Log in with Google</span>
+        </a>
+      </div>
+      <a href="./sign-up.html">Don’t have an account? Create One.</a>
+    </section>
+
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
