@@ -1,0 +1,96 @@
+.facebook{
+  fill: $color-aqua-90 !important;
+}
+
+.alternative {
+  margin-top: 65px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  fill: white;
+
+  h2 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 81px;
+    color: $color-white-50;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $color-white-50;
+  }
+
+  a {
+    margin: 50px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-white-50;
+  }
+
+  &-links {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    a {
+      margin: 0;
+      width: 300px;
+      padding: 20px;
+      box-sizing: border-box;
+      border: 2px solid $color-white-50;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      text-align: center;
+      transition: .6s all;
+
+      &:hover{
+        background: $color-white-50;
+        color: $color-aqua-90;
+      }
+    }
+
+    &__icon{
+      width: 35px;
+      height: 35px;
+      fill: $color-white-50;
+      transition: .6s all;
+    }
+  }
+}
+
+.alternative-links a:hover .alternative-links__icon{
+  fill: $color-aqua-90;
+}
+
+@media screen and (max-width: 920px) {
+  .alternative{
+    margin-top: 40px;
+
+    a{
+      margin: 25px 0;
+      font-size: 14px;
+    }
+
+    &-links{
+      margin-top: 40px;
+
+      a{
+        width: 290px;
+        margin: 0;
+      }
+    }
+  }
+}
