@@ -1,0 +1,141 @@
+.sources {
+  margin-top: 100px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 180px;
+    color: $color-white-50;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: $color-white-50;
+  }
+
+  &-row {
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(402px, 1fr));
+    gap: 23px;
+
+    &__card {
+      position: relative;
+      padding: 35px 47px 17px 30px;
+      box-sizing: border-box;
+      border: 1px solid $color-white-600;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+
+      img {
+        max-width: 50px;
+        width: 100%;
+      }
+
+      h3 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        color: $color-white-50;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 34px;
+        color: $color-white-550;
+      }
+
+      span {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        padding: 7px 18px;
+        background: $color-blue-700;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-aqua-90;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .sources {
+    margin-top: 80px;
+
+    h1{
+      font-size: 70px;
+      line-height: 100px;
+    }
+
+    p{
+      font-size: 24px;
+    }
+
+    &-row {
+      margin-top: 80px;
+      grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .sources {
+    margin-top: 80px;
+
+    h1{
+      font-size: 50px;
+      line-height: 60px;
+    }
+
+    p{
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sources {
+    margin-top: 50px;
+    
+    h1{
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    p{
+      font-size: 10px;
+    }
+
+    &-row {
+      margin-top: 30px;
+      grid-template-columns: repeat(auto-fill, minmax(252px, 1fr));
+
+      &__card {
+        gap: 7px;
+
+        h3 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

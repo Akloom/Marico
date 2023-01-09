@@ -2114,6 +2114,126 @@
     border: 1.5px solid #FFFFFF;
   }
 }
+.sources {
+  margin-top: 100px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sources h1 {
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 180px;
+  color: #FFFFFF;
+}
+.sources p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+.sources-row {
+  margin-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(402px, 1fr));
+  gap: 23px;
+}
+.sources-row__card {
+  position: relative;
+  padding: 35px 47px 17px 30px;
+  box-sizing: border-box;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.sources-row__card img {
+  max-width: 50px;
+  width: 100%;
+}
+.sources-row__card h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+.sources-row__card p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  color: #828282;
+}
+.sources-row__card span {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 7px 18px;
+  background: #102142;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4A7DE3;
+}
+
+@media screen and (max-width: 920px) {
+  .sources {
+    margin-top: 80px;
+  }
+  .sources h1 {
+    font-size: 70px;
+    line-height: 100px;
+  }
+  .sources p {
+    font-size: 24px;
+  }
+  .sources-row {
+    margin-top: 80px;
+    grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
+  }
+}
+@media screen and (max-width: 680px) {
+  .sources {
+    margin-top: 80px;
+  }
+  .sources h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .sources p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sources {
+    margin-top: 50px;
+  }
+  .sources h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .sources p {
+    font-size: 10px;
+  }
+  .sources-row {
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(252px, 1fr));
+  }
+  .sources-row__card {
+    gap: 7px;
+  }
+  .sources-row__card h3 {
+    font-size: 22px;
+  }
+  .sources-row__card p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
 .footer {
   margin-top: 100px;
   padding: 50px 20px;
